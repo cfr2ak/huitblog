@@ -6,11 +6,22 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
+    "draft-js": "^0.10.5",
     "express": "~4.16.0",
+    "express-favicon": "^2.0.1",
     "http-errors": "~1.6.2",
     "jade": "~1.11.0",
-    "morgan": "~1.9.0"
+    "morgan": "~1.9.0",
+    "node-jsx": "^0.13.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
   }
 }
